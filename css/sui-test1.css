@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/**动态设置card背景**/
+.card{
+    /*background-size: 100% 100%;*/
+    /*background-image: url("../img/summer-bg.jpg");*/
+    height: 9rem;
+}
+
+.card-header{
+    padding: 0.2rem 0.5rem;
+    font-size: 1.0rem;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+
+.card-content-inner{
+   padding: 0 0.5rem;
+}
+.card-content-inner p{
+    color: white;
+    margin: 0.2rem 0rem;
+}
+
+.card-footer{
+    margin-top: 2.5rem;
+}
+
+/**卡片底部字颜色**/
+.card-footer a{
+    color: white;
+}

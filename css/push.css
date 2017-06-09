@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/**头部背景颜色**/
+.bar{
+    background: #4ebecd;
+}
+
+/**头部返回箭头**/
+.title,.bar-nav a{
+    color: white;
+}
+
+
+.content{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.item-input{
+    text-align: right;
+}
+
+/**字体大小**/
+.item-title{
+    font-size: 0.65rem;
+}
+
+.list-block ul{
+    background: transparent;
+}
+.list-block ul li{
+    margin: 0.3rem 0.5rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+/**checkbox颜色**/
+.label-switch input[type=checkbox]:checked+.checkbox{
+    background: #4ebecd;
+}

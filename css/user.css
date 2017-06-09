@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/**头部背景颜色**/
+.bar{
+    background: #4ebecd;
+}
+
+/**头部返回箭头**/
+.title,.bar-nav a{
+    color: white;
+}
+
+.content{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/**输入框**/
+.item-title{
+    width: 100%;
+    background: transparent;
+    border: none;
+    font-size: 0.7rem;
+}
+
+/**头像**/
+.head-pic{
+    width: 100%;
+    height: 10rem;
+    line-height: 10rem;
+    text-align: center;
+}
+/**头像大小**/
+.head-pic img{
+    width: 6rem;
+    height: 6rem;
+    vertical-align: middle;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    width: 100%;
+    text-align: center;
+}
+
+ul li{
+    width: 90%;
+    margin: 0.8rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+
+
+.content-block-title{
+    text-align: left;
+    margin: 0 0;
+    font-size: 0.6rem;
+}
+

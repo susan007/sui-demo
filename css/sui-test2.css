@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.title-img{
+    top: 0;
+    width: 100%;
+    height: 8.2rem;
+    background-size:100% 100% ;
+    background-image: url("../img/me-bg.png");
+    text-align: center;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+/**毛玻璃效果**/
+.maoboli{
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -ms-filter: blur(3px);
+    -o-filter: blur(3px);
+    filter: blur(3px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=4, MakeShadow=false);
+}
+
+
+/**头像设置**/
+.title-img img{
+    position: relative;
+    display: block;
+    /*margin-top: 3rem;*/
+    width: 3.9rem;
+    height: 3.9rem;
+    margin-top: -4.2rem;
+    margin-left: 0.5rem;
+}
+/**头部背景颜色**/
+.bar-nav{
+    background: transparent;
+}
+/**底部蓝色背景**/
+.bar-tab{
+    background: #4ebecd;
+}
+
+/**头部返回箭头**/
+.title,.bar-nav a,.button-light{
+    color: white;
+}
+
+/**底部工具栏**/
+.bar-tab .tab-item.active, .bar-tab .tab-item:active{
+    color: white;
+}
+
+/**内容区**/
+.bar-nav~.content{
+    top: 8rem;
+}
+/**设置卡片**/
+.item-media img{
+    width: 2.5rem;
+    height: 2.3rem;
+}
+
+.card-footer{
+    color: #4ebecd;
+}
+
+.item-title{
+    font-size: 0.7rem;
+    background: #e1e1e1;
+    border-radius: 5px;
+    padding: 3px 3px;
+}

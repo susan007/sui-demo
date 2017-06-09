@@ -12,17 +12,16 @@
     <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
     <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
     <script src="../js/jquery-2.0.2.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/sui-test4.css">
 </head>
 <body>
 <div class="page">
+    <!--头部-->
     <header class="bar bar-nav">
         <a class="icon icon-left pull-left"></a>
-        <button class="button pull-right  button-light">
-            秘密
-        </button>
-        <h1 class="title">后花园</h1>
+        <h1 class="title">设置</h1>
     </header>
-
+    <!--工具栏-->
     <nav class="bar bar-tab">
         <a class="tab-item " href="sui-test1.html" id="btn-page1">
             <span class="icon icon-home"></span>
@@ -34,7 +33,7 @@
         </a>
         <a class="tab-item " href="sui-test3.html" id="btn-page3">
             <span class="icon icon-star"></span>
-            <span class="tab-label">收藏</span>
+            <span class="tab-label">发现</span>
         </a>
         <a class="tab-item active" href="sui-test4.html" id="btn-page4">
             <span class="icon icon-settings"></span>
@@ -44,7 +43,42 @@
 
     <div class="content" id="page1">
         <!-- 这里是页面内容区 -->
+        <div class="content-block-title">个人设置</div>
+        <div class="list-block">
+            <ul>
+                <li class="item-content">
+                    <div class="item-inner">
+                        <div class="item-title"><a href="user.html">账户设置</a></div>
+                    </div>
+                </li>
 
+            </ul>
+        </div>
+        <div class="content-block-title">系统设置</div>
+        <div class="list-block">
+            <ul>
+                <li class="item-content">
+                    <div class="item-inner">
+                        <div class="item-title"><a href="push.html">推送通知设置</a></div>
+                    </div>
+                </li>
+                <li class="item-content" id="clear">
+                    <div class="item-inner">
+                        <div class="item-title"><a href="#">清空缓存设置</a></div>
+                    </div>
+                </li>
+                <li class="item-content">
+                    <div class="item-inner">
+                        <div class="item-title"><a href="suggestion.html">意见反馈</a></div>
+                    </div>
+                </li>
+                <li class="item-content">
+                    <div class="item-inner">
+                        <div class="item-title"><a href="about.html">关于我们</a></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
 
     </div>
 
@@ -52,9 +86,11 @@
 </div>
 
 </body>
-
+<script src="../js/sui-test4.js"></script>
 <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+
+
 
 </html>

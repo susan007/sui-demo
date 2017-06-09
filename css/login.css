@@ -40,14 +40,14 @@ body{
     float: right;
     margin-top: -15px;
     margin-right:20px;
-    color: #0894ec;
+    color: #4ebecd;
     font-size: 0.7rem;
 }
 
 .input-sty{
     text-align: center;
     border-radius: 5px;
-    border: 1px solid #0894ec;
+    border: 1px solid #4ebecd;
     margin: 0.5rem 0.5rem;
 }
 
@@ -84,6 +84,6 @@ input{
     text-align: center;
     color: white;
     font-size: 0.8rem;
-    background-color: #0894ec;
+    background-color: #4ebecd;
     opacity:0.4;
 }

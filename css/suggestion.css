@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/**头部背景颜色**/
+.bar{
+    background: #4ebecd;
+}
+
+/**头部返回箭头**/
+.title,.bar-nav a,.button-light{
+    color: white;
+}
+
+/**底部工具栏**/
+.bar-tab .tab-item.active, .bar-tab .tab-item:active{
+    color: white;
+}
+
+/**标卡栏**/
+.buttons-tab{
+    margin-top: 5px;
+    background: #4ebecd;
+}
+
+/**标卡字体**/
+.buttons-tab .button.active{
+    color: white;
+    border-bottom:3px solid #bbd424;
+}
+
+/**底部输入框**/
+.bar-tab{
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.text-edit {
+    height: 2.6rem;
+    width: 75%;
+    margin: 0.2rem 0rem;
+    margin-left: 0.3rem;
+    font-size: 0.7rem;
+    border-radius: 3px;
+}
+/**底部发送按钮**/
+.button-light{
+    height: 2.4rem;
+    width: 15%;
+    margin: 0.2rem 0;
+    margin-right: 0.2rem;
+}
+
+/**内容区域字体**/
+.content-block p{
+    font-size: 0.7rem;
+}
+
+

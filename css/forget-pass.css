@@ -3,6 +3,16 @@ body{
     padding: 0;
 }
 
+/**头部背景颜色**/
+.bar{
+    background: #4ebecd;
+}
+
+/**头部返回箭头**/
+.title,.bar-nav a{
+    color: white;
+}
+
 .content{
     background-image: url("../img/blue-bg.jpg");
     background-size: 100% 100%;
@@ -13,7 +23,7 @@ body{
     clear: both;
     text-align: center;
     border-radius: 5px;
-    border: 1px solid #0894ec;
+    border: 1px solid #4ebecd;
     margin: 0.5rem 0.5rem;
 }
 
@@ -40,7 +50,7 @@ input{
     background-color: transparent;
     text-align: center;
     border-radius: 5px;
-    border: 1px solid #0894ec;
+    border: 1px solid #4ebecd;
     margin-left: 0.5rem;
     margin-bottom: 0.5rem;
 }
@@ -51,12 +61,12 @@ input{
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
     border-radius: 5px;
-    border: 1px solid #0894ec;
+    border: 1px solid #4ebecd;
     width: 28%;
     height: 1.5rem;
     font-size: 0.7rem;
     color: white;
-    background-color: #0894ec;
+    background-color: #4ebecd;
     opacity:0.4;
 
 }
@@ -77,6 +87,6 @@ input{
     text-align: center;
     color: white;
     font-size: 0.8rem;
-    background-color: #0894ec;
+    background-color: #4ebecd;
     opacity:0.4;
 }

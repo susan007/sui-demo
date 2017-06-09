@@ -5,66 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>我的生活</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-    <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
     <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
-    <link rel="stylesheet" type="text/css" href="../css/tour_degital.css">
     <script src="../js/jquery-2.0.2.min.js"></script>
-
+    <link rel="stylesheet" type="text/css" href="../css/suggestion.css">
 </head>
 <body>
 <div class="page">
-    <div class="maoboli"></div>
+    <!--头部-->
     <header class="bar bar-nav">
         <a class="icon icon-left pull-left"></a>
-        <h1 class="title">编辑心情</h1>
+        <h1 class="title">意见反馈</h1>
     </header>
 
     <nav class="bar bar-tab">
-        <!--内容编辑区-->
+        <textarea class="text-edit">我有酒，请说出你的故事...</textarea>
         <a href="tour_degital.html">
-            <h1 class="title">确认</h1>
+            <button class="button pull-right button-light">发送</button>
         </a>
     </nav>
 
     <div class="content">
-        <!-- 这里是页面内容区 -->
-        <!-- 标题 -->
-        <input type="text" placeholder="心情标题" class="title-input">
-        <!--内容编辑区-->
-        <textarea class="text-edit">我有酒，请说出你的故事...</textarea>
-        <!--添加照片-->
-        <div class="pic">
-            <img src="../img/dudulu.png">
-            <img src="../img/dudulu.png">
+        <!--内容区-->
+        <!--标卡栏-->
+        <div class="buttons-tab">
+            <a href="#tab1" class="tab-link active button">通知</a>
+            <a href="#tab2" class="tab-link button">私信</a>
         </div>
-        <div class="pic">
-            <img id="add" src="../img/add.png">
+        <div class="content-block">
+            <div class="tabs">
+                <div id="tab1" class="tab active">
+                    <div class="content-block">
+                        <p>暂时没有通知哦~\(≧▽≦)/~</p>
+                    </div>
+                </div>
+
+                <div id="tab2" class="tab">
+                    <div class="content-block">
+                        <p>暂时没有私信哦~\(≧▽≦)/~</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div class="card-footer">
-
-            <img src="../img/icon_set.png">
-            <input class="footer-input" placeholder="故事发生在哪里">
-
-
-            <img src="../img/icon_set.png">
-            <input class="footer-input" type="datetime-local" value="2015-09-24T13:59:59" >
-
-        </div>
-
     </div>
 
 </div>
 </div>
 
+</body>
+<script src="../js/sui-test4.js"></script>
 <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
 
-</body>
 
 
 </html>

@@ -12,15 +12,26 @@
     <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
     <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
     <script src="../js/jquery-2.0.2.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../css/sui-test3.css">
 </head>
 <body>
 <div class="page">
     <header class="bar bar-nav">
         <a class="icon icon-left pull-left"></a>
-        <button class="button pull-right  button-light">
-            秘密
-        </button>
-        <h1 class="title">后花园</h1>
+        <a class="icon icon-refresh pull-right"></a>
+        <h1 class="title">发现旅途</h1>
+
+        <!--添加一个搜索栏-->
+        <div class="bar bar-header-secondary">
+            <div class="searchbar">
+                <a class="searchbar-cancel">取消</a>
+                <div class="search-input">
+                    <label class="icon icon-search" for="search"></label>
+                    <input type="search" id='search' placeholder='输入关键字...'/>
+                </div>
+            </div>
+        </div>
     </header>
 
     <nav class="bar bar-tab">
@@ -34,7 +45,7 @@
         </a>
         <a class="tab-item active" href="sui-test3.html" id="btn-page3">
             <span class="icon icon-star"></span>
-            <span class="tab-label">收藏</span>
+            <span class="tab-label">发现</span>
         </a>
         <a class="tab-item" href="sui-test4.html" id="btn-page4">
             <span class="icon icon-settings"></span>
@@ -45,14 +56,60 @@
     <div class="content" id="page1">
         <!-- 这里是页面内容区 -->
 
+        <!--轮播图-->
+        <div class="scroll">
+            <div class="scroll_pic">
+                <a href="#"><img src="../img/youji6.jpg" alt=""/></a>
+                <a href="#"><img src="../img/youji2.jpg" alt=""/></a>
+                <a href="#"><img src="../img/youji3.jpg" alt=""/></a>
+                <a href="#"><img src="../img/youji5.jpg" alt=""/></a>
+            </div>
+            <!--点点点-->
+            <ul id="scroll_button">
+                <li class="scroll_in"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <!--标卡栏-->
+        <div class="buttons-tab">
+            <a href="#tab1" class="tab-link active button">
+                <img class="icon" src="../img/icon-air.png">
+                国内
+            </a>
+            <div class="line"></div>
+            <a href="#tab2" class="tab-link button">
+                <img class="icon" src="../img/icon-earth.png">
+                国外
+            </a>
+        </div>
+        <!--标卡内容区-->
+        <div class="content-block">
+            <div class="tabs">
+                <div id="tab1" class="tab active">
+                    <div class="content-block">
+                        <p>国内游</p>
+                    </div>
+                </div>
+
+                <div id="tab2" class="tab">
+                    <div class="content-block">
+                        <p>国外游</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
 
     </div>
-
 </div>
 </div>
 
 </body>
-
+<script src="../js/lunbo.js"></script>
 <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>

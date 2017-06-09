@@ -3,6 +3,21 @@ body{
     padding: 0;
 }
 
+/**头部背景颜色**/
+.bar{
+    background: #4ebecd;
+}
+
+/**头部返回箭头**/
+.title,.bar-nav a,.button-light{
+    color: white;
+}
+
+/**底部工具栏**/
+.bar-tab .tab-item.active, .bar-tab .tab-item:active{
+    color: white;
+}
+
 .page{
     background-image: url("../img/blue-bg.jpg");
     background-size: 100% 100%;

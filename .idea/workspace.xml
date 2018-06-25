@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d95997a-e2bc-46bc-b722-0d796da801f5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/img/readmeImg/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/readmeImg/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/readmeImg/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/readmeImg/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/readmeImg/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/readmeImg/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/readmeImg/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/readmeImg/8.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/readmeImg/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/readmeImg/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/readmeImg/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/readmeImg/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/readmeImg/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/readmeImg/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/readmeImg/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/readmeImg/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/readmeImg/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/readmeImg/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/readmeImg/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/readmeImg/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/readmeImg/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/readmeImg/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/readmeImg/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/readmeImg/8.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +47,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="456">
-                <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <first_editor relative-caret-position="399">
+                <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -147,7 +147,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="5" />
     <option name="y" value="449" />
     <option name="width" value="1269" />
@@ -195,6 +195,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/img/blue-bg.jpg" />
   </component>
   <component name="RecentsManager">
@@ -281,12 +282,12 @@
       <workItem from="1496892627659" duration="1074000" />
       <workItem from="1496900406527" duration="26099000" />
       <workItem from="1496968909359" duration="12220000" />
-      <workItem from="1529892009012" duration="3776000" />
+      <workItem from="1529892009012" duration="6613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86596000" />
+    <option name="totallyTimeSpent" value="89433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -328,9 +329,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/forget-pass.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/forget-pass.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
@@ -618,11 +616,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/readmeImg/7.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="456">
-            <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <first_editor relative-caret-position="399">
+            <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>
